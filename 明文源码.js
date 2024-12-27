@@ -1259,15 +1259,15 @@ async function 生成配置信息(userID, hostName, sub, UA, RproxyIP, _url, env
 		if ((addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0) {
 			// 定义 Cloudflare IP 范围的 CIDR 列表
 			let cfips = [
-				'103.21.244.0/23',
-				'104.16.0.0/13',
+				'156.252.2.0/23',
+				'104.16.0.0/12',
 				'104.24.0.0/14',
-				'172.64.0.0/14',
+				'198.41.220.0/23',
 				'103.21.244.0/23',
 				'104.16.0.0/14',
 				'104.24.0.0/15',
 				'141.101.64.0/19',
-				'172.64.0.0/14',
+				'162.159.240.0/20',
 				'188.114.96.0/21',
 				'190.93.240.0/21',
 			];
